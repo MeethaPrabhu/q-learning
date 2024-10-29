@@ -8,21 +8,21 @@ To develop and evaluate the Q-learning algorithm's performance in navigating the
 The goal of this project is to implement a Q-learning algorithm that enables an agent to learn optimal actions in a dynamic environment to maximize cumulative rewards.
 
 ## Q LEARNING ALGORITHM
-#### Step 1:
+### Step 1:
 Initialize the Q-table with zeros for all state-action pairs based on the environment's observation and action space.
-#### Step 2:
+### Step 2:
 Define the action selection method using an epsilon-greedy strategy to balance exploration and exploitation.
-#### Step 3:
+### Step 3:
 Create decay schedules for the learning rate (alpha) and epsilon to progressively reduce their values over episodes.
-#### Step 4:
+### Step 4:
 Loop through a specified number of episodes, resetting the environment at the start of each episode.
-#### Step 5:
+### Step 5:
 Within each episode, continue until the episode is done, selecting actions based on the current state and the epsilon value.
-#### Step 6:
+### Step 6:
 Execute the chosen action to obtain the next state and reward, and compute the temporal difference (TD) target.
-#### Step 7:
+### Step 7:
 Update the Q-value for the current state-action pair using the TD error and the learning rate for that episode.
-#### Step 8:
+### Step 8:
 Track the Q-values, value function, and policy after each episode for analysis and evaluation.
 
 ## Q LEARNING FUNCTION
