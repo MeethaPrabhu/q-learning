@@ -5,8 +5,7 @@
 To develop and evaluate the Q-learning algorithm's performance in navigating the environment and achieving the desired goal.
 
 ## PROBLEM STATEMENT
-The goal of this project is to implement a Q-learning algorithm that enables an agent to learn optimal actions in a dynamic environment to maximize cumulative rewards.
-
+The environment, represented as a Markov Decision Process (MDP), provides the agent with a set of states and actions, and the agent’s task is to learn the optimal policy that maximizes long-term rewards. The Q-learning algorithm operates by iteratively refining Q-values through temporal difference (TD) learning, where the agent learns from the difference between predicted and actual rewards.
 ## Q LEARNING ALGORITHM
 ### Step 1:
 Initialize the Q-table with zeros for all state-action pairs based on the environment's observation and action space.
